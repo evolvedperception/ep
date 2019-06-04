@@ -4,7 +4,7 @@ title:  "Floral Watercolor Painting"
 date:   2018-05-31
 categories: [Artwork]
 tags: [ painting, watercolor ]
-img: images/ep/artwork/watercolor/watercolor2_Cropped.jpg
+img: images/ep/artwork/watercolor/watercolor2_cropped.jpg
 ---
 
 What can I say? Two of my favorite things! I've combined my love for photography, painting, and the outdoors for my latest adventure. My goal has been to paint at least one painting a week, however I must admit, summer gets a little hectic and I haven't had as much time for painting as I would have liked.
