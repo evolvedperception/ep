@@ -1,0 +1,135 @@
+/* -------------------------------------------------- 
+   top navigation styles
+-----------------------------------------------------*/
+nav ul { margin: 0 auto; text-align: center;}
+nav ul, nav li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-height: 0;
+}
+nav li a {
+	font: 1rem;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+}
+
+
+
+/* -------------------------------------------------- 
+   Smaller screen styles
+-----------------------------------------------------*/
+@media only screen and (max-width: 950px) {
+
+/* -------------------------------------------------- 
+   top navigation styles
+-----------------------------------------------------*/
+nav {
+	background: none;
+	margin-bottom: 1rem;
+}
+nav ul {
+	display: none;
+}
+nav li {
+	background: #165765;
+	margin-bottom: .2rem;
+}
+nav li:hover {
+	background: #BC520D;
+}
+nav li a {
+    color: #fff;
+	font-size: 1.2rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 0.2rem;
+	padding: .5rem 0;
+	display: block;
+	max-width: 5rem;
+	text-align: center;
+	max-width: 100%;
+	width:100%;
+}
+nav li a:hover {
+	color: white;
+}
+/*toggle check styles*/
+.toggle-label {
+	display: block;
+	background: #EDEDED;
+	font: 0.8rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+	color: #2c2c2c;
+	padding: .5rem 0;
+	text-decoration: none;
+	width: 5rem;
+	cursor: pointer;
+	}
+#menu-toggle {
+	display: none;
+}
+#menu-toggle:checked + .toggle-label {
+	background: #fff;
+}
+#menu-toggle:checked + .toggle-label span {
+	display: none;
+}
+#menu-toggle:checked + .toggle-label:before {
+	content: 'close';
+}
+#menu-toggle:checked ~ ul {
+	display: block;
+}
+
+pre {
+	font-size: 1.2rem;
+	width: 90%;
+}
+
+dd{
+	padding: 0;
+	margin:0;
+	margin-bottom: 1rem;
+}
+}
+/* -------------------------------------------------- 
+   Larger screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 951px) {
+/* -------------------------------------------------- 
+   top navigation styles
+-----------------------------------------------------*/
+nav {
+	background: none;
+    }
+#menu-toggle, .toggle-label {
+		display: none;
+	}
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-height: 0;
+}
+nav li {
+	display: inline-block;
+}
+nav li a {
+	font: 1rem;
+	color: #165765;
+	background: transparent;
+	margin-right: 0.5rem;
+	padding: 1rem;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+}
+nav li a:hover {
+	color: #BC520D;
+	text-decoration: underline;
+}
+}

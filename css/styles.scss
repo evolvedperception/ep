@@ -1,0 +1,22 @@
+---
+# SCSS style sheet for evolved perception
+---
+
+
+// Imports
+@import "normalize";
+@import "core";
+@import "mainNav";
+
+@import "blogNav";
+@import "layout";
+@import "aside";
+
+@import "footer";
+
+@import "contactForm";
+@import "gallery";
+@import "about";
+
+@import "category";
+@import "arrows";

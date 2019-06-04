@@ -1,0 +1,244 @@
+/* -------------------------------------------------- 
+   Smaller screen styles
+-----------------------------------------------------*/
+@media only screen and (max-width: 950px) {
+    .right, 
+    .left {
+	   float: none;
+    }
+}
+
+
+/*header logo*/
+.epLogo { width: auto; display: block;}
+
+
+
+/* -------------------------------------------------- 
+   article styles
+-----------------------------------------------------*/
+.main-container {
+    width: 100%;
+  /*  max-width: 1500px;*/
+    background-color: #ffffff;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.main-container .content-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.posts, .archive {
+	padding: 0 1rem 0;
+}
+
+.linkPadding {padding: 10px 0;}
+
+article header {
+	padding-bottom: 0.5rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #BFB248;
+}
+article h2 {
+	font-size: 2rem;
+	font-weight: 400;
+	line-height:1.2;
+	margin-bottom:0.2rem;
+}
+
+article h2 a {
+	text-decoration:none;
+}
+
+article p, p {
+	font-size: 1rem;
+	line-height: 1.6;
+    font-family: 'Lora', serif;
+    word-spacing: 1px;
+}
+
+article time {
+	display: block;
+	font-size: 1rem;
+	color: #2c2c2c;
+	margin-bottom: 0;
+}
+article ul li {
+    list-style-type: round;
+    margin-left: 50px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Lora', serif;
+    word-spacing: 1px;
+}
+article ul li a {
+    font-size: 1.25rem;
+}
+a.more {
+	display: block;
+	text-align: right;
+}
+a.more:before {
+	content: '[';
+}
+a.more:after {
+	content: ']';
+}
+p code {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+p.affiliateNotice { font-size: .875rem; text-align: center;}
+
+pre {
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #2c2c2c;
+	padding: .5rem 1rem;
+	margin-bottom: 1rem;
+	border-left: 1rem solid #BFB248;
+	background: #EDEDED;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 90%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+figcaption {
+	font-size: 0.9rem;
+	font-style: italic;
+}
+blockquote {
+	font: 1.5rem;
+	font-weight: 400;
+	color: #2c2c2c;
+	padding-left: 1rem;
+	margin: 1em 0;
+	border-left: 4px solid #BFB248;
+}
+cite {
+	display: block;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+}
+article footer {
+	background: none;
+	border-top: 1px solid #BFB248;
+	font-size: 0.8rem;
+	padding: 1rem 0;
+}
+dt {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #42659A;
+	margin-bottom:0;
+}
+dd {
+	margin-bottom:1rem;
+}
+.taglist time {
+	display: inline;
+	font-size: 1rem;
+}
+.pagination {
+	width: 100%;
+	font-size: 1.2rem;
+}
+.prevLink {
+	float: left;
+	width: 50%;
+}
+.nextLink {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+    
+    
+/*skip to content*/
+
+
+a.skip:active, a.skip:focus, a.skip:hover {
+    outline: 0 none;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transition: top .1s ease-in 0s,background .5s linear 0s;
+}
+
+
+a.skip {
+    font-size: 1rem;
+    color: #165765;
+    font-weight: 400;
+    background-color: #fff;
+}
+//a:link {
+//    text-decoration: underline;
+ //   color: #165765;
+//}
+
+.skip {
+    padding: 10px 20px;
+    position: absolute;
+    left: 10px;
+    top: -45px;
+    transition: top 1s ease-out 0s,background 1s linear 0s;
+    z-index: 100;
+}
+
+
+
+
+
+/* -------------------------------------------------- 
+   Larger screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 951px) {
+/* -------------------------------------------------- 
+   layout styles
+-----------------------------------------------------*/
+
+
+.page-header {
+	padding: 0 3%;
+	padding-top: 1rem;
+}
+
+.fullpage { width: 90%; margin: 0 auto;}
+
+/* -------------------------------------------------- 
+   header styles
+-----------------------------------------------------*/
+header h1 {
+	font-size: 3rem;
+}
+header p {
+	font: 1rem;
+	font-weight: 400;
+	color: #2c2c2c;
+	text-transform: uppercase;
+}
+    
+    /* -------------------------------------------------- 
+   article styles
+-----------------------------------------------------*/
+
+
+a.more {
+	margin: 0.5rem 0;
+}
+    }
+
+    

@@ -1,0 +1,22 @@
+/* -------------------------------------------------- 
+   main footer styles
+-----------------------------------------------------*/
+.page-footer {
+	background: #EDEDED;
+	padding: 1rem;
+}
+
+.page-footer p {	
+    color: #2c2c2c;
+    text-align: center;
+    font-size: .875rem; 
+}
+
+/* -------------------------------------------------- 
+   Larger screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 951px) { 
+    .legal {
+	   text-align: center;
+    }
+}

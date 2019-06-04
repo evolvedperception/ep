@@ -1,0 +1,144 @@
+
+/* -------------------------------------------------- 
+  Global settings
+-----------------------------------------------------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2c2c2c;
+    background: #ededed;
+	direction: ltr;
+    margin: auto;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+html {
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+*, *:before, *:after {
+     margin: 0;
+    padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 0 0 1rem 0;
+}
+a {
+	color: #165765;
+	line-height: inherit;
+}
+a:hover {
+	color: #BC520D;
+}
+img, object, embed {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 1rem auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+
+.width75 { width: 75%; margin: 0 auto;}
+
+
+/* -------------------------------------------------- 
+  header styles
+-----------------------------------------------------*/
+.page-header {
+	padding: 1rem 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #2c2c2c;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+h2 {    
+	font-size: 2rem;
+    font-weight: 500;
+	margin-top: 2rem;
+    color: #165765;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+	margin: 20px 0 10px;
+    color: #BC520D;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.inlineMiddle {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* SETS FOCUS INDICATOR FOR ACCESSIBILITY */
+*:focus, div:focus, a:focus {
+	outline: 0;
+	box-shadow: 0 0 2px 2px #165765;
+	-moz-box-shadow: 0 0 2px 2px #165765;
+	-webkit-box-shadow: 0 0 2px 2px #165765;
+}
+.button:focus { background-color: #165765; }
+button, button:active {
+	border: none;
+	background-color: transparent;
+}

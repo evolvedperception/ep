@@ -1,0 +1,21 @@
+/* -------------------------------------------------- 
+   css arrow styles
+-----------------------------------------------------*/
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+    margin-left: 10px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;  
+  border-left: 7px solid #165765;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+    margin-right: 10px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;   
+  border-right:7px solid #165765; 
+}

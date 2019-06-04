@@ -1,0 +1,22 @@
+# Site settings
+title: Evolved Perception LLC
+img: /images/ep/evolvedPerceptionLogo.svg
+description: "Evolved Perception LLC Design, Art, Garden"
+baseurl: "/evolvedperceptionllc"
+url: "" 
+tagline: Design, Art, Garden
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+excerpt_separator: "<!--more-->"
+
+sass:
+    style: compressed
+    
+    

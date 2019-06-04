@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<main id="mainContent" class="cf main-container">
+        <div class="content-container">
+
+ <article itemscope itemtype="http://schema.org/BlogPosting" class="posts" aria-labelledby="postHdr">
+        <header>
+            <h2 id="postHdr">{{page.title}}</h2>
+            <time itemprop="dateCreated" datetime="{{page.date}}">
+                {{ page.date | date: "%B %-d, %Y" }}</time>
+        </header>
+        {{content}}
+
+    </article>
+        {% include sidebar.html %}
+    </div>
+</main>

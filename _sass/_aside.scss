@@ -1,0 +1,133 @@
+/* -------------------------------------------------- 
+   archive styles
+-----------------------------------------------------*/
+.archive ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.archive h3 {
+	font-size: 1.4rem;
+}
+.archive h3:target {
+	color: #BC520D;
+	font-size: 1.4rem;
+}
+.archive li {
+	margin-bottom: 0.5rem;
+}
+.tag-cloud {
+	max-width: 600px;
+}
+.tag-cloud li {
+	display: inline-block;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.tag-cloud a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	background: #EDEDED;
+	color: #2c2c2c;
+	padding: 0.125rem 0.5rem;
+	border-radius: 0.25rem;
+}
+.return {
+	display: none;
+}
+h3:target + .taglist .return {
+	display: block;
+}
+.return a {
+	font-size: 0.8rem;
+	text-decoration: none;
+	color: #BC520D;
+}
+.return a:before {
+	content: '\25b2\00a0';
+}
+
+/* -------------------------------------------------- 
+   sidebar styles
+-----------------------------------------------------*/
+aside {
+	padding: 0 1rem 0;
+}
+aside h3 {
+	color: #2c2c2c;
+	font-size: 1.4rem;
+	margin-top: 1rem;
+	margin-bottom: .4rem;
+}
+aside p {
+	margin-left: 1rem;
+}
+aside ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	margin-left: 1rem;
+}
+aside li {
+	margin-bottom: 0.5rem;
+}
+.social {
+	display: flex;
+	justify-content: space-around;
+}
+.social a {
+	text-indent: -9000em;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+.social-container {max-width: 220px; margin: 0 auto;}
+.social-container ul { list-style: none;}
+.social-container .social a { width: 25px; height: 25px; }
+.social-container .social li { padding: 10px;}
+
+.behance {
+	background: url(../images/social/behance.svg) no-repeat;
+}
+.instagram {
+	background: url(../images/social/instagram.svg) no-repeat;
+}
+.fb {
+	background: url(../images/social/facebook.svg) no-repeat;
+}
+.linked {
+	background: url(../images/social/linkedin.svg) no-repeat;
+}
+.twitter {
+	background: url(../images/social/twitter.svg) no-repeat;
+}
+.pinterest {
+	background: url(../images/social/pinterest.svg) no-repeat;
+}
+.rss {
+	background: url(../images/social/rss.svg) no-repeat;
+}
+
+
+
+
+
+
+/* -------------------------------------------------- 
+   Larger screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 951px) {
+    .posts, .archive {
+	   float: left;
+	   width: 70%;
+	   padding-right: 2.5%;
+    }
+    
+    aside {
+	   float: right;
+	   width: 30%;
+	   max-width: 320px;
+	   padding-top: 1rem;
+	   padding-left: 2.5%;
+    }
+}

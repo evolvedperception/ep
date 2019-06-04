@@ -1,0 +1,38 @@
+---
+layout: default
+page-type: post
+
+---
+<main id="mainContent" class="cf main-container">
+        <div class="content-container">
+
+
+ <article class="posts" itemscope itemtype="http://schema.org/BlogPosting" aria-labelledby="postHdr">
+        <header id="postHdr">
+            <h2>{{page.title}}</h2>
+            <time itemprop="dateCreated" datetime="{{page.date}}">
+                {{ page.date | date: "%B %-d, %Y" }}</time>
+        </header>
+        
+        {% if page.img %}  
+            <img src="{{site.baseurl}}/{{page.img}}" alt="{{page.title}}">
+        {% endif %}
+     
+        {{content}}
+        <footer>
+        <p>Posted in {% for tag in page.categories %}<a href="{{ site.baseurl }}/blog/category/{{ tag | cgi_escape }}.html" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        </footer>
+
+     <section class="post-links">
+    <p>Read more:</p>
+  {% if page.previous.url %}
+    <p class="prevLink"><a class="previous inlineMiddle" href="{{ site.baseurl }}{{page.previous.url}}"><span class="arrow-left inlineMiddle"></span> {{page.previous.title}}</a></p>
+  {% endif %}
+  {% if page.next.url %}
+    <p class="nextLink"><a class="next inlineMiddle" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} <span class="arrow-right inlineMiddle"></span></a></p>
+  {% endif %}
+	</section>
+    </article>
+        {% include sidebar.html %}
+    </div>
+</main>
