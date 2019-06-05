@@ -17,7 +17,7 @@ My experience gardening fruits and vegetables continues to grow each year. When 
 <!--more-->
 A few years later we moved to a property with a fairly large garden and a huge raspberry patch. There were chives that came up in spring and a couple of overgrown apple and pear trees in the fence line but other than that I was on my own.
 
-![Raspberry Garden Area](/images/ep/garden/raspberryBed_2010.jpg)
+![Raspberry Garden Area](/images/ep/garden/raspberryBed2010.jpg)
 
 At the beginning of this post is a photo of our garden back in 2012 -- not the greatest picture, but you can see what we had to start with. It was a large simple garden, which we tried to amend with sand, compost and manure to try to lessen the clay qualities that our soil had. Now that we had a garden area tilled up, and ammended the best we could I had even more questions.
 
