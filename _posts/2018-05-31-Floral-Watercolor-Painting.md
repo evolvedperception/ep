@@ -7,7 +7,7 @@ tags: [ painting, watercolor ]
 img: images/ep/artwork/watercolor/watercolor2_cropped.jpg
 ---
 
-What can I say? Two of my favorite things! I've combined my love for photography, painting, and the outdoors for my latest adventure. My goal has been to paint at least one painting a week, however I must admit, summer gets a little hectic and I haven't had as much time for painting as I would have liked.
+What can I say? Two of my favorite things! I've combined my love for photography, painting, and the outdoors for my latest adventure. My goal has been to paint at least one painting a week, however I must admit, summer gets a little hectic and I haven't had as much time for painting as I would have liked.<!--more-->
 
 Throughout the Spring and Summer I have been taking as many pictures as I can of the landscape gardens and individual flowers throughout our property. I started to print out the ones I like best, and have a binder of ideas to paint from in the future. All images I get ideas to paint from are taken by me, so my paintings are always going to be original.
 
