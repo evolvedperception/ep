@@ -16,13 +16,11 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lora" rel="stylesheet">
 
     
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> 
+  <title>Evolved Perception LLC{% if page.title %} : {{ page.title }}{% else %}{{ site.title }}{% endif %}</title> 
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-
-  <script src="{{ site.baseurl }}/scripts/modernizr.custom.js"></script>
 
 </head>
 <body>
@@ -43,5 +41,12 @@
     
 	{{content}}
       {% include footer.html %}
+    
+      <script src="{{ site.baseurl }}/scripts/modernizr.custom.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+    <script src="{{ site.baseurl }}/scripts/ep.js"></script>
+
 </body>
 </html>
