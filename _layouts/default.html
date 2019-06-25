@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lora" rel="stylesheet">
 
     
-  <title>{{ site.title }} : {% if page.title %}{{ page.title }}{% endif %}</title> 
+  <title>{{ site.title }}{% if page.title %} : {{ page.title }}{% endif %}</title> 
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
