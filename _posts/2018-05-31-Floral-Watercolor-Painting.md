@@ -2,7 +2,7 @@
 layout: post
 title:  "Floral Watercolor Painting"
 date:   2018-05-31
-categories: [Artwork]
+categories: [artwork]
 tags: [ painting, watercolor ]
 img: images/ep/artwork/watercolor/watercolor2_cropped.jpg
 ---

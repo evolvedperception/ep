@@ -2,7 +2,7 @@
 layout: post
 title:  "Garden Planning 2018"
 date:   2018-03-15
-categories: [Garden]
+categories: [garden]
 tags: [flowers, gardening, planning, layout]
 img: images/ep/garden/2018/garden_plan.jpg
 ---

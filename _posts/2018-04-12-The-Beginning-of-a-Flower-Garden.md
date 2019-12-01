@@ -2,7 +2,7 @@
 layout: post
 title:  "The Beginning of a Flower Garden"
 date:   2018-04-12
-categories: [Flowers]
+categories: [flowers]
 tags: [flowers, gardening]
 img: images/ep/garden/flowerCover.jpg
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "The Garden - How it All Started"
 date:   2018-03-29
-categories: [Garden]
+categories: [garden]
 tags: [gardening]
 img: images/ep/garden/gardenStart2012.jpg
 ---

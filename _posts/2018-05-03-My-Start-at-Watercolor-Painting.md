@@ -2,7 +2,7 @@
 layout: post
 title:  "My Start at Watercolor Painting"
 date:   2018-05-03
-categories: [Artwork]
+categories: [artwork]
 tags: [watercolor]
 img: images/ep/artwork/watercolor/palette.jpg
 ---

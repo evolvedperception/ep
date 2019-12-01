@@ -2,7 +2,7 @@
 layout: post
 title:  "New Watercolor Supplies"
 date:   2018-05-17
-categories: [Artwork]
+categories: [artwork]
 tags: [watercolor]
 img: images/ep/artwork/watercolor/watercolorPaints.jpg
 ---
