@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110294052-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110294052-1');
+</script>
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
@@ -39,10 +47,11 @@
     <img height="90" width="250" alt="Evolved Perception LLC logo" src="{{ site.baseurl }}/images/ep/evolvedPerceptionLogo.svg"/>
 </a>
     </div>
-    <h1 id="pageTitle" class="visually-hidden">{{site.title}}</h1>
 	  {% include navigation.html %}
 
 </header>
+        <h1 id="pageTitle" class="visually-hidden">{{site.title}}</h1>
+
 	{{content}}
     
     {% include footer.html %}
